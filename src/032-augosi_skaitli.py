@@ -17,18 +17,3 @@ def ir_augoss(saraksts):
         ir_augoss([100, 10, 180]) == False
         ir_augoss([]) == True
     """
-    if len(saraksts) < 2:
-        return True
-
-    for n in range(1, len(saraksts)):
-        if saraksts[n] <= saraksts[n-1]:
-            return False
-    return True
-
-
-# Pārbaudes
-print("skaitļiem 1,3,5, jābūt True,", ir_augoss([1, 3, 5]))
-print("skaitļiem 100, 10, 180, jābūt False, ir", ir_augoss([100, 10, 180]))
-print("skaitļiem 10, 10, 100, jābūt False, ir", ir_augoss([100, 10, 180]))
-print("tukšam masīvam jābūt True,", ir_augoss([]))
-print("viena elementa masīvam jābūt True,", ir_augoss([2]))
