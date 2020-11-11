@@ -1,2 +1,3 @@
-# startit-python-testi
-StartIT kursu kods testēšanas tēmai.
+# Start(IT) kursu materiāli tēmai "Testēšana"
+
+Piemēri, apraksti, uzdevumi.
