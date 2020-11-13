@@ -1,4 +1,12 @@
 def ir_augoss(saraksts):
+    if len(saraksts)<=1:
+        True
+    else:
+        augos = True
+        for elements in range(1, len(saraksts)):
+            if saraksts[elements]<saraksts[elements-1]:
+                augos = False
+        return augos
     """
     Funkcija akceptē vienu argumentu - masīvu ar skaitļiem 
     un noskaidro vai masīvs ir augošs.

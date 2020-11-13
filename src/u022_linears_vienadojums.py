@@ -1,4 +1,5 @@
 def vienadojums(x, a, b):
+    return a * x + b
     """
     Funkcija aprēķina lineāra vienādojuma y = a * x + b vērtību
     pie dotas x vērtības, ja doti koeficienti a un b.

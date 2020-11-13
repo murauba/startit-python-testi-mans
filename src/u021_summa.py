@@ -1,4 +1,5 @@
 def summa(a, b):
+    return a + b
     """
     Funkcija akceptē divus argumentus - skaiļus a un b,
     aprēķina to summu un atgriež to.

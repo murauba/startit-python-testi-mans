@@ -1,4 +1,10 @@
 def lielaku_skaits(saraksts):
+    skaits = 0
+    avg = sum(saraksts) / len(saraksts)
+    for elements in saraksts:
+        if elements>avg:
+            skaits+=1
+    return skaits
     """
     Funkcija akceptē vienu argumentu - masīvu ar skaitļiem 
     un atgriež cik no šiem skaitļiem ir strikti lielāki
