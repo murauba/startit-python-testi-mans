@@ -1,6 +1,6 @@
 def ir_augoss(saraksts):
     if len(saraksts)<=1:
-        True
+        return True
     else:
         augos = True
         for elements in range(1, len(saraksts)):
